@@ -12,6 +12,9 @@
 - npm: 3.5.2
 
 ## Repository
+[GitHub Repository](https://github.com/emilio-alvarez/SimpleChatApp)
+
+(If the link doesn't work: https://github.com/emilio-alvarez/SimpleChatApp)
 
 ## Setup Instructions
 - Make sure node and npm are installed (This was tested on the versions above).

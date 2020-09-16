@@ -1,33 +1,28 @@
-## Author
-- Name: Emilio Alvarez Veronesi
-- UCID: 10159679
-- Tutorial: B03
+# Simple Chat App
+
+The client and server code for a very simple chat room built with [socket.io](https://socket.io/).
+
+## Setup
+
+```
+npm install
+node index.js
+```
+
+The server should now be running, and accessible from a browser at `localhost:3000`.
+
+## Functionality
+
+- User Sessions: Cookies allow users to close and reopen the browser, while maintaining their preferences.
+- Commands: Users can change their display name and color using /nick and /color.
+- Chat History: Users will receive all messages received from when the server was started. Messages are stored in memory.
 
 ## Browsers
+
 - Mozilla Firefox; Version 73.0.1 (64-bit)
 - Google Chrome; Version 80.0.3987.132 (Official Build) (64-bit)
 
 ## Node Versions
+
 - nodejs: v8.10.0
 - npm: 3.5.2
-
-## Repository
-[GitHub Repository](https://github.com/emilio-alvarez/SimpleChatApp)
-
-(If the link doesn't work: https://github.com/emilio-alvarez/SimpleChatApp)
-
-## Setup Instructions
-- Make sure node and npm are installed (This was tested on the versions above).
-- Unzip the submitted code, or clone the repository listed above.
-- Enter the folder containing the source files.
-- Run ```npm install```
-- Once npm completes, start the server ```node index.js```
-- From a browser, go to localhost:3000
-- The chat application should now be open
-
-## Functionality
-All features outlined in the assignment description are included.
-
-Since all user data is stored server side, and in memory, cookies only function as long as the server is online.
-
-Further, a browser with multiple tabs will use the same cookie, and therefore, act as the same user.

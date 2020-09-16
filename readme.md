@@ -2,7 +2,7 @@
 
 The client and server code for a very simple chat room built with [socket.io](https://socket.io/).
 
-[Simple Chat Screenshot](screenshot.png)
+![Simple Chat Screenshot](screenshot.png)
 
 ## Setup
 

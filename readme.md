@@ -2,6 +2,8 @@
 
 The client and server code for a very simple chat room built with [socket.io](https://socket.io/).
 
+[Simple Chat Screenshot](screenshot.png)
+
 ## Setup
 
 ```
@@ -15,7 +17,7 @@ The server should now be running, and accessible from a browser at `localhost:30
 
 - User Sessions: Cookies allow users to close and reopen the browser, while maintaining their preferences.
 - Commands: Users can change their display name and color using /nick and /color.
-- Chat History: Users will receive all messages received from when the server was started. Messages are stored in memory.
+- Chat History: Users will receive all messages sent since the server was started. Messages are stored in memory.
 
 ## Browsers
 

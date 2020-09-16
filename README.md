@@ -6,7 +6,7 @@ Developed for a SENG 513 assignment at University of Calgary.
 
 ![Simple Chat Screenshot](screenshot.png)
 
-## Setup
+## Build / Run
 
 ```
 npm install
